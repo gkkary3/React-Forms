@@ -21,9 +21,9 @@ React에서 폼 데이터를 처리하는 다양한 방법을 살펴보는 예�
    - **특징**: 상태 변경 없이 입력 요소를 직접 참조해 유효성 검사를 수행하므로 퍼포먼스 측면에서 유리합니다.
 
 3. **FormData 사용하기**
-
-   ![FormData 예제](https://github.com/user-attachments/assets/a0e27ade-5dd4-4bb9-9e0f-8559138cee4e)
-
+   
+   <img src="https://github.com/user-attachments/assets/a0e27ade-5dd4-4bb9-9e0f-8559138cee4e" width="500" />
+   
    - **설명**: `FormData` 객체를 활용해 `form` 태그 안의 모든 `input` 데이터를 관리하며, `required` 속성을 통해 기본적인 유효성 검사를 설정할 수 있습니다.  
    - **특징**: 폼 데이터 전체를 쉽게 관리할 수 있으며, HTML 기본 유효성 검사를 활용할 수 있습니다.
 
