@@ -8,14 +8,14 @@ React에서 폼 데이터를 처리하는 다양한 방법을 살펴보는 예�
 
 1. **useState 사용하기**
 
-   ![useState 예제](https://github.com/user-attachments/assets/3732062b-0065-4e50-bd91-388bd1114267)
+   <img src="https://github.com/user-attachments/assets/3732062b-0065-4e50-bd91-388bd1114267" width="500"/>
 
    - **설명**: `useState`를 활용하여 `input` 값들을 관리하고, `onBlur` 이벤트로 사용자의 입력을 실시간으로 검증합니다.  
    - **특징**: 입력이 변경될 때마다 상태가 업데이트되어 유효성 검사가 즉시 적용됩니다.
 
 2. **useRef 사용하기**
 
-   ![image](https://github.com/user-attachments/assets/b72b2403-a29f-4b51-b822-65f8eb132e9c)
+   <img src="https://github.com/user-attachments/assets/b72b2403-a29f-4b51-b822-65f8eb132e9c" width="500"/>
 
    - **설명**: `useRef`를 이용해 `input` 요소에 접근하여, 데이터를 제출할 때(`onSubmit`) 한 번에 유효성 검사를 수행합니다.  
    - **특징**: 상태 변경 없이 입력 요소를 직접 참조해 유효성 검사를 수행하므로 퍼포먼스 측면에서 유리합니다.
